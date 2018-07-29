@@ -52,8 +52,8 @@ window.addEventListener('DOMContentLoaded' , function(){
      takeout.addEventListener('click' , function(){
      	item.remove();
      	  let item1 = products[i].cloneNode(true);
-     	  shop.appendChild(item1);
-
+     	  shop.appendChild(products[i]);
+        
      });
   	})
   }
